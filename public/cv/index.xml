@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-    <description>Recent content on </description>
+    <title>Cv on </title>
+    <link>/cv/</link>
+    <description>Recent content in Cv on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Nov 2023 20:50:17 -0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 20:50:17 -0800</lastBuildDate><atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CV</title>
       <link>/cv/cv/</link>
@@ -15,24 +15,6 @@
       <guid>/cv/cv/</guid>
       <description>#zExperience
 Bonterra logo IT Security EngineerIT Security Engineer Bonterra · Full-timeBonterra · Full-time Jun 2022 - Present · 1 yr 6 mosJun 2022 - Present · 1 yr 6 mos Skills: Vulnerability Assessment · Mac · Cyber-security · Incident ResponseSkills: Vulnerability Assessment · Mac · Cyber-security · Incident Response Holland &amp;amp; Knight LLP logo Holland &amp;amp; Knight LLPHolland &amp;amp; Knight LLP 3 yrs 11 mos3 yrs 11 mos IT Security AnalystIT Security Analyst Full-timeFull-time Feb 2021 - Jun 2022 · 1 yr 5 mosFeb 2021 - Jun 2022 · 1 yr 5 mos Skills: Vulnerability Assessment · Cyber-security · Incident ResponseSkills: Vulnerability Assessment · Cyber-security · Incident Response IT Security Specialist IT Security Specialist Full-timeFull-time Jan 2020 - Feb 2021 · 1 yr 2 mosJan 2020 - Feb 2021 · 1 yr 2 mos Tampa/St.</description>
-    </item>
-    
-    <item>
-      <title>Learning_just_enough_hugo</title>
-      <link>/posts/learning_just_enough_hugo/</link>
-      <pubDate>Wed, 15 Nov 2023 20:48:51 -0800</pubDate>
-      
-      <guid>/posts/learning_just_enough_hugo/</guid>
-      <description>test</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/about/</link>
-      <pubDate>Wed, 15 Nov 2023 20:48:13 -0800</pubDate>
-      
-      <guid>/about/about/</guid>
-      <description></description>
     </item>
     
   </channel>
