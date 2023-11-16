@@ -10,7 +10,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [params]
     brand = "Jeff Wingfield"                      # name of your site - appears in the sidebar
      remote_brand_image = 'https://avatars.githubusercontent.com/u/16784317?v=4.png' # path to a remote file
-    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    # brand_image = "/images/utest.jpg"    # path to the image shown in the sidebar
     description = "Personal Blog" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
