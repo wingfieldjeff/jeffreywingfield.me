@@ -54,11 +54,13 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo 
+          hugo \
+            
+            
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: /public
+          path: ./public
 
   # Deployment job
   deploy:
