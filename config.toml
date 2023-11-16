@@ -9,9 +9,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 [params]
     brand = "Jeff Wingfield"                      # name of your site - appears in the sidebar
-    # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
+     remote_brand_image = 'https://avatars.githubusercontent.com/u/16784317?v=4.png' # path to a remote file
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-    description = "My new site" # Used as default meta description if not specified in front matter
+    description = "Personal Blog" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
@@ -25,18 +25,19 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "CV", URL = "/cv/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
     #discord_url = "https://discord.com"
-    email_url = "mailto://user@domain"
+    email_url = "mailto://wingfield.jeffrey@gmail.com"
     #facebook_url = "https://facebook.com"
     #flickr_url = "https://flickr.com"
-    github_url = "https://github.com"
+    github_url = "https://github.com/wingfieldjeff"
     #gitlab_url = "https://gitlab.com"
-    instagram_url = "https://instagram.com"
-    linkedin_url = "https://linkedin.com"
+    instagram_url = "https://www.instagram.com/wingfieldjeffmakes"
+    linkedin_url = "https://www.linkedin.com/in/jeffrey-wingfield-a8a2b9155/"
     #mastodon_url = "https://mastodon.social"
     #matrix_url = "https://matrix.org"
     #telegram_url = "https://telegram.org"
