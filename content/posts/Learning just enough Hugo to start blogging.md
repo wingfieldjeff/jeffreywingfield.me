@@ -1,7 +1,7 @@
 ---
 title: Learning just enough Hugo to Start Blogging
 date: 2023-11-15T20:48:51-08:00
-draft: false
+draft: true
 ---
 
 # The Why
