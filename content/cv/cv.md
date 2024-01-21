@@ -4,9 +4,9 @@ date: 2023-11-16T10:44:50-08:00
 draft: false
 ---
 
-# Summary
-IT Security Engineer with 5 years experience in IT.
-Excited to talk about anything homelab, linux, RPA, or 3D printing.
+# Summary 
+<summary style= "background-color: #312fb6">IT Security Engineer with 5 years experience in IT.
+Excited to talk about anything homlab, linux, RPA, or 3D printing.</summary>
 
 # Experience
 Bonterra
