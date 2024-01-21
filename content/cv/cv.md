@@ -5,8 +5,9 @@ draft: false
 ---
 
 # Summary 
-<summary style= "background-color: #312fb6">IT Security Engineer with 5 years experience in IT.
-Excited to talk about anything homlab, linux, RPA, or 3D printing.</summary>
+IT Security Engineer with 5 years experience in IT.
+Excited to talk about anything homlab, linux, RPA, or 3D printing.
+{style="color: red"}
 
 # Experience
 Bonterra
