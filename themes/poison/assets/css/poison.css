@@ -342,3 +342,7 @@ div.highlight pre {
 .current {
     color: var(--text-color);
 }
+.callout[data-callout="past"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: lucide-alert-circle;
+}
