@@ -1,1 +1,5 @@
 /* Empty css file that users can override in their own /static/css/custom.css file */
+.callout[data-callout="past"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: lucide-alert-circle;
+}
