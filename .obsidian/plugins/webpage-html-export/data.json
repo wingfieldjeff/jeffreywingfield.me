@@ -1,0 +1,40 @@
+{
+  "inlineCSS": true,
+  "inlineJS": true,
+  "inlineImages": true,
+  "includePluginCSS": "callout-manager",
+  "includeSvelteCSS": true,
+  "makeNamesWebStyle": true,
+  "allowFoldingHeadings": true,
+  "sidebarsAlwaysCollapsible": false,
+  "addFilenameTitle": true,
+  "minifyHTML": true,
+  "customLineWidth": "70%",
+  "contentWidth": "",
+  "sidebarWidth": "",
+  "startOutlineCollapsed": false,
+  "logLevel": "warning",
+  "incrementalExport": false,
+  "deleteOldExportedFiles": false,
+  "addDarkModeToggle": true,
+  "includeOutline": true,
+  "includeGraphView": true,
+  "includeFileTree": true,
+  "exportPreset": "website",
+  "openAfterExport": true,
+  "graphAttractionForce": 1,
+  "graphLinkLength": 10,
+  "graphRepulsionForce": 150,
+  "graphCentralForce": 3,
+  "graphEdgePruning": 100,
+  "graphMinNodeSize": 3,
+  "graphMaxNodeSize": 7,
+  "exportPath": "/home/jeff/Documents/GitHub/jeffreywingfield.me/content/html",
+  "filesToExport": [
+    [
+      "about/about.md",
+      "cv/cv.md",
+      "posts/Learning just enough Hugo to start blogging.md"
+    ]
+  ]
+}
