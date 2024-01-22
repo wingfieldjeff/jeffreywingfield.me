@@ -3,27 +3,25 @@ title: "cv"
 date: 2023-11-16T10:44:50-08:00
 draft: false
 ---
-
 # Summary 
 IT Security Engineer with 5 years experience in IT.
 Excited to talk about anything homlab, linux, RPA, or 3D printing.
-{style="color: red"}
-
 # Experience
-Bonterra
-IT Security Engineer
+## Bonterra
+### IT Security Engineer
 *June 2022 - Present (1 year 6 months)*
 
-**Skills:** Crowdstrike Falcon · Python (Programming Language) · GitHub · Vulnerability Assessment · Mac · Cyber-security · Incident Response 
+As a Security Engineer I develop python scripts to interact with the APIs of various security tools in order to simplify security workflows, automate dashboards, and produce custom reports. I write incident response playbooks based on CISA guidelines, perform vulnerability assessments, and participate in incident response. 
+
+**Skills:** Crowdstrike Falcon · Python (Programming Language) · GitHub · Vulnerability Assessment · Mac · Cyber-security · Incident Response · GraphQL · Bash · Powershell
 
 ---
-
-Holland & Knight LLP
+## Holland & Knight LLP
 **3 years 11 months**
 ### IT Security Analyst
 *February 2021 - June 2022 (1 year 5 months)*
 
-**Skills:**  DLP · Vulnerability Assessment · Cyber-security · Incident Response · Proofpoint · Carbon Black · ServiceNow · Microsoft Defender for Endpoint · Microsoft Power Automate
+**Skills:**  DLP · Vulnerability Assessment · Cyber-security · Incident Response · Proofpoint · Carbon Black · ServiceNow · Microsoft Defender for Endpoint · Microsoft Power Automate · Powershell
 ### IT Security Specialist
 *January 2020 - February 2021 (1 year 2 months)*
 
@@ -34,7 +32,7 @@ addition, I work on researching, configuring, and deploying new systems and
 solutions for use by the IT Security department.
 
 **Skills:** Vulnerability Assessment · Cyber-security · Incident Response
->### IT Help Desk Lead
+### IT Help Desk Lead
 *July 2019 - January 2020 (7 months)*
 
 As HelpDesk Lead I handle escalated tickets, access control, and new user
@@ -52,7 +50,6 @@ enroll and support mobile devices via IBM MaaS360.
 **Skills:** Citrix Workspace · Citrix Products · Powershell · Remote Desktop · Desktop Virtualization · Virtualization · Incident Response · Microsoft Office · Active Directory · System Center Configuration Manager (SCCM) 
 
 ---
-
 ## Trial Consulting Services
 ### Trial Consultant
 *November 2017 - May 2018 (7 months)*
@@ -66,8 +63,6 @@ with clients to understand their needs and present the best solution.
 **Skills:** Windows · Synology · TrialDirector · Adobe Photoshop · Presentation Skills · Mac · Nmap
 
 ---
-
-
 ## Saint Leo University
 **2 years 10 months**
 ### Information Security Intern
@@ -80,6 +75,8 @@ with Openvas, Snort, and Kali in general. I was also involved in efforts to
 educate faculty and staff on information security and best practices. This
 includes initial response to genuine phishing attacks and fake phishing tests
 for faculty.
+
+**Skills:** Tenable Nessus · OpenVAS · Snort · Mac · Linux · Kali Linux
 ### Student Technician
 *June 2016 - April 2017 (11 months)*
 Saint Leo, FL
@@ -89,6 +86,8 @@ students, faculty, and staff. This included troubleshooting university computers
 mobile devices, and networking equipment. I took part in imaging student
 machines via a PXE server and the installation of network equipment in
 student housing.
+
+**Skills:** Windows · Mac · Computer Hardware Troubleshooting · Active Directory · Customer Service
 ### Resident Assistant
 *July 2014 - May 2016 (1 year 11 months)*
 

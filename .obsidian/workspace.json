@@ -14,8 +14,20 @@
               "type": "markdown",
               "state": {
                 "file": "content/cv/cv.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54703d9574a8118b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jeffrey Wingfield.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/cv/cv.md",
+                "file": "Jeffrey Wingfield.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/cv/cv.md",
+                "file": "Jeffrey Wingfield.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/cv/cv.md"
+                "file": "Jeffrey Wingfield.md"
               }
             }
           },
@@ -154,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,10 +182,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f844824e232dca7a",
+  "active": "a78130aa35dbf4d9",
   "lastOpenFiles": [
     "content/cv/cv.md",
+    "Jeffrey Wingfield.md",
     "content/posts/Learning just enough Hugo to start blogging.md",
+    "content/posts/Untitled.md",
     "content/cv.textbundle",
     "content/cv.md",
     "content/Learning just enough Hugo to start blogging.md",
