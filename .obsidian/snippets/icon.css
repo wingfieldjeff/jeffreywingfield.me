@@ -2,7 +2,7 @@ svg.svg-icon {
     stroke-width: 1;
 }
 
-.sidebar-content {  
+.sidebar-content {
     background-color: #0000009c;
 }
 
@@ -37,7 +37,33 @@ input[type="search"]::-webkit-search-decoration {
   }
 }
 
-/* Make the expand icon match the theme */
-.graph-icon.graph-expand {
-  color: #fff; /* Adjust this value to match your theme's icon color */
+/* Override tree collapse button styling */
+.clickable-icon.collapse-tree-button {
+  background-color: transparent !important; /* Ensure transparent background */
+  color: var(--col-icons) !important;         /* Use the theme's green for the icon */
+  border: none !important;                    /* Remove any borders */
+  box-shadow: none !important;                /* Remove any shadows */
+  opacity: 1 !important;                      /* Force visibility */
+  transition: none !important;                /* Disable transitions that might hide it */
+  padding: 0.5em;                             /* Adjust padding as needed */
 }
+
+/* Ensure the button remains visible even in the collapsed state */
+.clickable-icon.collapse-tree-button.is-collapsed {
+  opacity: 1 !important;
+}
+
+/* Apply the same overrides on hover, focus, and active states */
+.clickable-icon.collapse-tree-button:hover,
+.clickable-icon.collapse-tree-button:focus,
+.clickable-icon.collapse-tree-button:active {
+  background-color: transparent !important;
+  color: var(--col-icons) !important;
+  opacity: 1 !important;
+}
+
+/* Make sure the inline SVG inside uses the current color */
+.clickable-icon.collapse-tree-button svg {
+  stroke: currentColor;
+}
+
