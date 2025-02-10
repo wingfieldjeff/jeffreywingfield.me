@@ -2,12 +2,10 @@ svg.svg-icon {
     stroke-width: 1;
 }
 
-
-
-.sidebar-content{
-    
+.sidebar-content {  
     background-color: #0000009c;
 }
+
 /* Reset and standardize search input appearance */
 input[type="search"] {
   -webkit-appearance: none; /* Remove native styling on WebKit browsers */
@@ -20,7 +18,7 @@ input[type="search"] {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
-  /* Optionally, set a custom background image for the search icon */
+  /* Custom background image for the search icon */
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>');
   background-repeat: no-repeat;
   background-position: 0.5em center; /* Position icon on the left */
@@ -30,9 +28,16 @@ input[type="search"] {
 /* Remove default magnifying glass decoration if it still appears */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}@media not all and (min-resolution: 0.001dpcm) { 
+}
+
+@media not all and (min-resolution: 0.001dpcm) { 
   /* Safari-only CSS hack */
   input[type="search"] {
     /* Safari-specific overrides */
   }
+}
+
+/* Make the expand icon match the theme */
+.graph-icon.graph-expand {
+  color: #fff; /* Adjust this value to match your theme's icon color */
 }
