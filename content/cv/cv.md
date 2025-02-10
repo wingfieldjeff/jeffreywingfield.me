@@ -4,12 +4,26 @@ date: 2023-11-16T10:44:50-08:00
 draft: false
 ---
 # Summary 
-IT Security Engineer with 5 years experience in IT.
-Excited to talk about anything homlab, linux, RPA, or 3D printing.
+IT Engineer with 8 years experience in IT and over 4 years experience working for law firms. I am excited to talk about anything HomeLab, Linux, Automation, Machine Learning, or 3D printing. I am a volunteer robotics coach and avid maker. I thrive on variety and problem solving.
 # Experience
+
+## Holland & Knight LLP
+*May 2024 - Present
+
+- Designed and developed advanced ServiceNow applications using JavaScript.
+- Automated CI/CD workflows for ServiceNow applications leveraging Python, Azure Pipelines, and GitHub Actions, reducing deployment times and ensuring reliability.
+- Established and enforced SDLC policies and procedures, driving consistency and efficiency in software development practices.
+- Integrated large language model (LLM) workflows into documentation and planning processes, enhancing collaboration and innovation.
+- Partnered with the cybersecurity team to automate vulnerability management and incident response activities, improving security response times.
+- Initiated and led the migration of on-premises ServiceNow MID servers to containerized environments in AWS using Docker, streamlining infrastructure management.
+- Developed RPA testing frameworks to ensure robust quality assurance for ServiceNow applications.
+ 
+Skills: ServiceNow· Python · AWS · GitHub · Powershell  · JavaScript · Azure Devops · Llama3 · Copilot*
+
+---
 ## Bonterra
 ### IT Security Engineer
-*June 2022 - Present (1 year 6 months)*
+*June 2022 - May 2024 (1 year 11 months)*
 
 As a Security Engineer I develop python scripts to interact with the APIs of various security tools in order to simplify security workflows, automate dashboards, and produce custom reports. I write incident response playbooks based on CISA guidelines, perform vulnerability assessments, and participate in incident response. 
 
