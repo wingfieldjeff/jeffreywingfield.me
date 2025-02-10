@@ -184,15 +184,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "c42659e54103d101",
+        "id": "d616625c98e21942",
         "type": "window",
         "children": [
           {
-            "id": "f580271c10accf32",
+            "id": "30c5dd08afd47896",
             "type": "tabs",
             "children": [
               {
-                "id": "e2d92fb8bd335d1a",
+                "id": "dc1650f70dea799e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -218,7 +218,7 @@
       }
     ]
   },
-  "active": "e2d92fb8bd335d1a",
+  "active": "dc1650f70dea799e",
   "lastOpenFiles": [
     "content/cv/cv.md",
     "index.md",
