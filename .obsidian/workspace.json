@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Sand Turner.md",
+                "file": "content/cv/cv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sand Turner"
+              "title": "cv"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Sand Turner.md",
+                "file": "content/cv/cv.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sand Turner"
+              "title": "Outline of cv"
             }
           }
         ],
@@ -170,14 +170,14 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
+    "content/cv/cv.md",
+    "index.md",
     "content/posts/Sand Turner.md",
     "attachments/Pasted image 20250210230100.png",
     "content/posts/Canvas Test.canvas",
-    "content/cv/cv.md",
     "docs/content/posts/canvas-test.html",
     "content/posts/Open Notebook 1st post.md",
     "posts.md",
-    "index.md",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
     "docs/site-lib/styles/theme.css",
