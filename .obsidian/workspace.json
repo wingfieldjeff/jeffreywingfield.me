@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/cv/cv.md",
+                "file": "content/posts/Open Notebook 1st post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "Open Notebook 1st post"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/cv/cv.md",
+                "file": "content/posts/Open Notebook 1st post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cv"
+              "title": "Outline of Open Notebook 1st post"
             }
           }
         ],
@@ -170,13 +170,17 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
-    "content/cv/cv.md",
-    "index.md",
     "content/posts/Sand Turner.md",
+    "docs/attachments/pasted-image-20250211140130.png",
+    "content/posts/Open Notebook 1st post.md",
+    "attachments/Pasted image 20250211140130.png",
+    "index.md",
+    "content/cv/cv.md",
+    "Clippings/pixel-canvas Web Component.md",
+    "Clippings",
     "attachments/Pasted image 20250210230100.png",
     "content/posts/Canvas Test.canvas",
     "docs/content/posts/canvas-test.html",
-    "content/posts/Open Notebook 1st post.md",
     "posts.md",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
@@ -186,7 +190,6 @@
     "docs/site-lib/styles/other-plugins.css",
     "docs/site-lib/styles/obsidian.css",
     "docs/site-lib/styles/global-variable-styles.css",
-    "docs/site-lib/styles/main-styles.css",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
@@ -194,8 +197,6 @@
     "docs/attachments/pasted-image-20250210191809.png",
     "docs/attachments/pasted-image-20250210212632.png",
     "docs/attachments/pasted-image-20250210210547.png",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/6155340132a851f6089e.svg",
     "content/about/about.md",
     "file.link.md",
     "Open Notebook 1st post.md",

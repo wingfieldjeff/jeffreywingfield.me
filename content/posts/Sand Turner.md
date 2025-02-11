@@ -113,3 +113,7 @@ void loop() {
 }
 
 ```
+
+# Second attempt
+![[Pasted image 20250211140130.png]]
+On my next go, I caved to common sense. 4 bearings, with one on each side of each axel. This means there are not plastic on plastic wear surfaces and the weight of the disk is not transferred into the motor.
