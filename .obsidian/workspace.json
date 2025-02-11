@@ -15,7 +15,7 @@
               "state": {
                 "file": "index.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -192,8 +192,10 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
-    "docs/attachments/jeffg.png",
+    "docs/attachments/jeffgfav.png",
+    "docs/attachments/jeffgfav.html",
     "index.md",
+    "docs/attachments/jeffg.png",
     "posts.md",
     "attachments/JeffG.png",
     "content/posts/Open Notebook 1st post.md",
@@ -214,12 +216,10 @@
     "docs/site-lib/styles/snippets.css",
     "docs/site-lib/styles/other-plugins.css",
     "docs/site-lib/styles/obsidian.css",
-    "docs/site-lib/styles/global-variable-styles.css",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "docs/attachments/pasted-image-20250210213256.png",
-    "docs/attachments/pasted-image-20250210191809.png",
     "content/about/about.md",
     "file.link.md",
     "Open Notebook 1st post.md",

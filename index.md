@@ -6,11 +6,11 @@ Hello! My name is Jeff Wingfield and I am an IT Engineer, developer, and securit
 This site is for my personal [blog](posts.md), [[cv]], and portfolio.
 
 
-<p align="center" width="100%">
+<div class="headshot" align="center" >
     
-    <img width=20%     src="JeffG.png">
+    <img class="headshot"   align="center"  src="JeffG.png">
 
-</p>
+</div>
 
 
 
