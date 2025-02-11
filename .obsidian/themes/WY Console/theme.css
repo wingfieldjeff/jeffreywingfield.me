@@ -264,7 +264,7 @@ body {
 	--col-ed-hyperlink-highlight-hover: var(--col-muted-plus);
 	--col-ed-hyperlink-strikethrough: var(--col-important-muted);
 	--col-ed-hyperlink-hover: var(--col-important-plus);
-	--col-ed-hyperlink-broken: red; /* Seems to not be possible to set this*/  
+	--col-ed-hyperlink-broken:var(--col-ed-hyperlink); /* Seems to not be possible to set this*/  
 	--col-ed-bckg-hyperlink-broken: var(--col-danger);
 	--col-ed-txt-p: var(--col-base);
 	--siz-ed-txt-p: var(--siz-txt-p);
@@ -328,7 +328,7 @@ body {
 	--col-pr-txt-hyperlink-unresolved: var(--col-important);
 	--col-pr-txt-hyperlink-strikethrough: var(--col-important-muted);
 	--col-pr-txt-hyperlink-hover: var(--col-important-plus);
-	--col-pr-hyperlink-broken: red;
+	--col-pr-hyperlink-broken: var(--col-ed-hyperlink);
 	--col-pr-txt-p: var(--col-base);
 	--siz-pr-txt-p: var(--siz-txt-p);
 	--col-pr-bckg-checkbox-empty: var(--col-muted);

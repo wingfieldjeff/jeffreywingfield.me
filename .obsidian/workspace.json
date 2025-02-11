@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "fe155b34a778defa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           }
         ],
@@ -178,7 +168,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fe155b34a778defa",
+  "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
     "index.md",
     "docs/site-lib/search-index.json",
@@ -189,16 +179,16 @@
     "docs/site-lib/styles/snippets.css",
     "docs/site-lib/styles/other-plugins.css",
     "docs/site-lib/styles/obsidian.css",
-    "docs/site-lib/styles/main-styles.css",
     "docs/site-lib/styles/global-variable-styles.css",
+    "docs/site-lib/styles/main-styles.css",
     "docs/site-lib/scripts/webpage.js",
-    "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/favicon.png",
+    "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "docs/attachments/pasted-image-20250210213256.png",
+    "docs/attachments/pasted-image-20250210191809.png",
     "docs/attachments/pasted-image-20250210212632.png",
     "docs/attachments/pasted-image-20250210210547.png",
-    "docs/attachments/pasted-image-20250210191809.png",
     "content/posts/Open Notebook 1st post.md",
     "content/posts/Sand Turner.md",
     "posts.md",
