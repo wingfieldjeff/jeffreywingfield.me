@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Open Notebook 1st post.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Notebook 1st post"
+              "title": "index"
+            }
+          },
+          {
+            "id": "fe155b34a778defa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Open Notebook 1st post.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Open Notebook 1st post"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -140,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Open Notebook 1st post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Notebook 1st post"
+              "title": "Outline"
             }
           }
         ],
@@ -158,44 +168,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "webpage-html-export:Export as HTML": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "faec3331b6b3efd8",
+  "active": "fe155b34a778defa",
   "lastOpenFiles": [
     "index.md",
-    "content/posts/Open Notebook 1st post.md",
-    "posts.md",
-    "content/posts/Sand Turner.md",
-    "docs/lib/media/pasted-image-20250210213256.png",
-    "docs/lib/media/pasted-image-20250210212632.png",
-    "docs/lib/media/20250117_172519_1.mp4",
-    "docs/lib/media/pasted-image-20250210210547.png",
-    "docs/content/posts/sand-turner.html",
-    "attachments/Pasted image 20250210213256.png",
-    "attachments/Pasted image 20250210212632.png",
-    "attachments/20250117_172519_1.mp4",
-    "attachments/20250117_172519_1 1.mp4",
-    "attachments/Pasted image 20250210210547.png",
-    "drafts",
-    "docs/lib/styles/other-plugins.css",
-    "docs/posts.html",
-    "content/about/about.md",
-    "docs/lib/media/pasted-image-20250210191809.png",
-    "docs/attachments/pasted-image-20250210191809.png",
-    "docs/attachments",
+    "docs/site-lib/search-index.json",
+    "docs/site-lib/metadata.json",
     "content/cv/cv.md",
-    "attachments/Pasted image 20250210191809.png",
-    "attachments",
-    "images",
-    "file.link.md",
+    "docs/site-lib/styles/theme.css",
+    "docs/site-lib/styles/supported-plugins.css",
+    "docs/site-lib/styles/snippets.css",
+    "docs/site-lib/styles/other-plugins.css",
+    "docs/site-lib/styles/obsidian.css",
+    "docs/site-lib/styles/main-styles.css",
+    "docs/site-lib/styles/global-variable-styles.css",
+    "docs/site-lib/scripts/webpage.js",
+    "docs/site-lib/media/6155340132a851f6089e.svg",
+    "docs/site-lib/media/favicon.png",
+    "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "docs/attachments/pasted-image-20250210213256.png",
+    "docs/attachments/pasted-image-20250210212632.png",
+    "docs/attachments/pasted-image-20250210210547.png",
+    "docs/attachments/pasted-image-20250210191809.png",
+    "content/posts/Open Notebook 1st post.md",
+    "content/posts/Sand Turner.md",
+    "posts.md",
+    "docs/lib/media/favicon.png",
     "docs/lib/media/6155340132a851f6089e.svg",
+    "docs/lib/media/pasted-image-20250210213256.png",
+    "content/about/about.md",
+    "file.link.md",
     "Open Notebook 1st post.md",
     "themes/poison/static/katex/README.md",
     "themes/poison/archetypes/default.md",
