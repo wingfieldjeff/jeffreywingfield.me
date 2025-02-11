@@ -1,6 +1,12 @@
+/* ======================================================================
+   Base Overrides and Existing Styles
+   ====================================================================== */
+
+/* Adjust SVG icon stroke width */
 svg.svg-icon {
-    stroke-width: 1;
+  stroke-width: 1;
 }
+
 /* Make sidebar corners sharp instead of rounded */
 .sidebar-left .sidebar-content,
 .sidebar-right .sidebar-content {
@@ -11,7 +17,7 @@ svg.svg-icon {
 }
 
 .sidebar-content {
-    background-color: #0000009c;
+  background-color: #0000009c;
 }
 
 /* Reset and standardize search input appearance */
@@ -38,7 +44,7 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-@media not all and (min-resolution: 0.001dpcm) { 
+@media not all and (min-resolution: 0.001dpcm) {
   /* Safari-only CSS hack */
   input[type="search"] {
     /* Safari-specific overrides */
@@ -47,7 +53,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Override tree collapse button styling */
 .clickable-icon.collapse-tree-button {
-  background-color: transparent !important; /* Ensure transparent background */
+  background-color: transparent !important; /* Transparent background */
   color: var(--col-icons) !important;         /* Use the theme's green for the icon */
   border: none !important;                    /* Remove any borders */
   box-shadow: none !important;                /* Remove any shadows */
@@ -74,7 +80,12 @@ input[type="search"]::-webkit-search-decoration {
 .clickable-icon.collapse-tree-button svg {
   stroke: currentColor;
 }
-/* --- Keyframes for Flicker Animation --- */
+
+/* ======================================================================
+   CRT Effects: Flicker, Screen-Door, and Color Separation Animations
+   ====================================================================== */
+
+/* Keyframes for Flicker Animation */
 @keyframes flicker {
   0%   { opacity: 0.27861; }
   5%   { opacity: 0.34769; }
@@ -99,7 +110,7 @@ input[type="search"]::-webkit-search-decoration {
   100% { opacity: 0.24387; }
 }
 
-/* --- Keyframes for Text Shadow (Color Separation) Animation --- */
+/* Keyframes for Text Shadow (Color Separation) Animation */
 @keyframes textShadow {
   0%   { text-shadow: 0.44px 0 1px rgba(0,30,255,0.5), -0.44px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
   5%   { text-shadow: 2.79px 0 1px rgba(0,30,255,0.5), -2.79px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
@@ -124,12 +135,14 @@ input[type="search"]::-webkit-search-decoration {
   100% { text-shadow: 2.62px 0 1px rgba(0,30,255,0.5), -2.62px 0 1px rgba(255,0,80,0.3), 0 0 3px; }
 }
 
-/* --- Apply the CRT Effect to the Entire Screen --- */
+/* ======================================================================
+   Full-Screen CRT Effect: Screen-Door, Flicker, and Convex Distortion
+   ====================================================================== */
 
-/* Ensure the root element is positioned relatively so that pseudo-elements align with the viewport */
+/* Ensure the html element is positioned relatively so that pseudo-elements cover the viewport */
 html {
   position: relative;
-  /* Apply the text shadow animation for color separation across the entire page */
+  /* Apply the text shadow animation for subtle color separation on all text */
   animation: textShadow 1.6s infinite;
 }
 
@@ -137,7 +150,7 @@ html {
 html::before {
   content: "";
   display: block;
-  position: fixed; /* Fixed to cover the viewport, even on scroll */
+  position: fixed; /* Fixed so that it covers the viewport during scrolling */
   top: 0;
   left: 0;
   right: 0;
@@ -165,8 +178,8 @@ html::after {
   animation: flicker 0.15s infinite;
   z-index: 10000;
 }
-html {
-  /* Apply a convex distortion filter using an embedded SVG filter via data URI */
-  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='crt-convex'><feImage result='gradient' xlink:href='data:image/svg+xml;utf8,<svg xmlns=&apos;http://www.w3.org/2000/svg&apos;><defs><radialGradient id=&apos;grad&apos; cx=&apos;50%&apos; cy=&apos;50%&apos; r=&apos;70%&apos; fx=&apos;50%&apos; fy=&apos;50%&apos;><stop offset=&apos;0%&apos; stop-color=&apos;white&apos;/><stop offset=&apos;100%&apos; stop-color=&apos;black&apos;/></radialGradient></defs><rect width=&apos;100%&apos; height=&apos;100%&apos; fill=&apos;url(%23grad)&apos;/></svg>'/><feDisplacementMap in='SourceGraphic' in2='gradient' scale='90' xChannelSelector='R' yChannelSelector='G'/></filter></svg>#crt-convex");
-}
 
+/* Apply a convex distortion filter (CRT convex effect) using an embedded SVG filter */
+html {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='crt-convex'><feImage result='gradient' xlink:href='data:image/svg+xml;utf8,<svg xmlns=&apos;http://www.w3.org/2000/svg&apos;><defs><radialGradient id=&apos;grad&apos; cx=&apos;50%&apos; cy=&apos;50%&apos; r=&apos;70%&apos; fx=&apos;50%&apos; fy=&apos;50%&apos;><stop offset=&apos;0%&apos; stop-color=&apos;white&apos;/><stop offset=&apos;100%&apos; stop-color=&apos;black&apos;/></radialGradient></defs><rect width=&apos;100%&apos; height=&apos;100%&apos; fill=&apos;url(%23grad)&apos;/></svg>'/><feDisplacementMap in='SourceGraphic' in2='gradient' scale='40' xChannelSelector='R' yChannelSelector='G'/></filter></svg>#crt-convex");
+}
