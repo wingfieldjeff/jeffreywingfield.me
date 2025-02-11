@@ -28,3 +28,5 @@ limit 10
 ## Credits:
 - Published to Github pages from [[Obsidian]] via [Obsidian-webpage-export](https://github.com/KosmosisDire/obsidian-webpage-export) by [KosmosisDire](https://github.com/KosmosisDire)
 - Theme based on [WYConsole](https://github.com/Satchelmouth/Obsidian-Theme-WYConsole) by [Satchelmouth](https://github.com/Satchelmouth) 
+- CTR effect based on [Using CSS to create a CRT](https://aleclownes.com/2017/02/01/crt-display.html) by [ Alec Lownes](https://aleclownes.com/)
+
