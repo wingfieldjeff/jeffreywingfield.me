@@ -184,3 +184,8 @@ html {
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='crt-convex'><feImage result='gradient' xlink:href='data:image/svg+xml;utf8,<svg xmlns=&apos;http://www.w3.org/2000/svg&apos;><defs><radialGradient id=&apos;grad&apos; cx=&apos;50%&apos; cy=&apos;50%&apos; r=&apos;70%&apos; fx=&apos;50%&apos; fy=&apos;50%&apos;><stop offset=&apos;0%&apos; stop-color=&apos;white&apos;/><stop offset=&apos;100%&apos; stop-color=&apos;black&apos;/></radialGradient></defs><rect width=&apos;100%&apos; height=&apos;100%&apos; fill=&apos;url(%23grad)&apos;/></svg>'/><feDisplacementMap in='SourceGraphic' in2='gradient' scale='40' xChannelSelector='R' yChannelSelector='G'/></filter></svg>#crt-convex");
 }
 
+/* Center tables on the page */
+.markdown-preview-view table {
+  margin-left: auto;
+  margin-right: auto;
+}

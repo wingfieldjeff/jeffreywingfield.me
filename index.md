@@ -5,12 +5,22 @@ Hello! My name is Jeff Wingfield and I am an IT Engineer, developer, and securit
 
 This site is for my personal [blog](posts.md), [[cv]], and portfolio.
 
+
+<p align="center" width="100%">
+    
+    <img width=20%     src="JeffG.png">
+
+</p>
+
+
+
 | Socials                                                              |
 | -------------------------------------------------------------------- |
 | [Linkedin](https://www.linkedin.com/in/jeffrey-wingfield-a8a2b9155/) |
 | [Github](https://github.com/wingfieldjeff)                           |
 | [Instagram](https://www.instagram.com/wingfieldjeffmakes/)           |
-|                                                                      |
+
+
 
 ---
 ## Recent Posts:
