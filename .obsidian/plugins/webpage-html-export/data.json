@@ -19,7 +19,7 @@
   "makeNamesWebStyle": true,
   "onlyExportModified": false,
   "deleteOldFiles": true,
-  "addThemeToggle": true,
+  "addThemeToggle": false,
   "addOutline": true,
   "addFileNav": true,
   "addSearchBar": true,

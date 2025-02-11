@@ -13,7 +13,7 @@ This site is for my personal [blog](posts.md), [[cv]], and portfolio.
 |                                                                      |
 
 ---
-## Recent Posts
+## Recent Posts:
 ```dataview
 
 table WITHOUT ID link(file.path, file.frontmatter.title) as "Title", file.cday as "Creation Date"
@@ -25,6 +25,6 @@ limit 10
 ```
 
 ---
-### Credits:
+## Credits:
 - Published to Github pages from [[Obsidian]] via [Obsidian-webpage-export](https://github.com/KosmosisDire/obsidian-webpage-export) by [KosmosisDire](https://github.com/KosmosisDire)
 - Theme based on [WYConsole](https://github.com/Satchelmouth/Obsidian-Theme-WYConsole) by [Satchelmouth](https://github.com/Satchelmouth) 
