@@ -8,6 +8,7 @@ IT Engineer with 8 years experience in IT and over 4 years experience working fo
 # Experience
 
 ## Holland & Knight LLP
+### ServiceNow Developer
 *May 2024 - Present
 
 - Designed and developed advanced ServiceNow applications using JavaScript.

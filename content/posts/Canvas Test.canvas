@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1bb88e6bb944831d","x":0,"y":0,"width":400,"height":400,"type":"file","file":"content/posts/Open Notebook 1st post.md"},
+		{"id":"e6f4f1fe6273c19b","x":-600,"y":-300,"width":400,"height":440,"type":"file","file":"content/posts/Sand Turner.md"},
+		{"id":"a0999a3fbd7f7b3b","x":20,"y":-500,"width":225,"height":400,"type":"file","file":"attachments/20250117_172519_1.mp4"},
+		{"id":"2df995b1bc59cf6c","x":400,"y":-240,"width":250,"height":60,"color":"6","type":"text","text":"purple\n"},
+		{"id":"eaddea57c6d129ce","x":340,"y":-100,"width":250,"height":60,"type":"text","text":"green"}
+	],
+	"edges":[
+		{"id":"425fe3f75ba6428d","fromNode":"e6f4f1fe6273c19b","fromSide":"right","toNode":"1bb88e6bb944831d","toSide":"left"},
+		{"id":"31cdab932abc5f16","fromNode":"e6f4f1fe6273c19b","fromSide":"top","toNode":"a0999a3fbd7f7b3b","toSide":"left"}
+	]
+}

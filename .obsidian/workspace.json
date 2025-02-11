@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "content/posts/Sand Turner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Sand Turner"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "content/posts/Sand Turner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Sand Turner"
             }
           }
         ],
@@ -170,10 +170,16 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
+    "content/posts/Sand Turner.md",
+    "attachments/Pasted image 20250210230100.png",
+    "content/posts/Canvas Test.canvas",
+    "content/cv/cv.md",
+    "docs/content/posts/canvas-test.html",
+    "content/posts/Open Notebook 1st post.md",
+    "posts.md",
     "index.md",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
-    "content/cv/cv.md",
     "docs/site-lib/styles/theme.css",
     "docs/site-lib/styles/supported-plugins.css",
     "docs/site-lib/styles/snippets.css",
@@ -181,7 +187,6 @@
     "docs/site-lib/styles/obsidian.css",
     "docs/site-lib/styles/global-variable-styles.css",
     "docs/site-lib/styles/main-styles.css",
-    "docs/site-lib/scripts/webpage.js",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
@@ -189,12 +194,8 @@
     "docs/attachments/pasted-image-20250210191809.png",
     "docs/attachments/pasted-image-20250210212632.png",
     "docs/attachments/pasted-image-20250210210547.png",
-    "content/posts/Open Notebook 1st post.md",
-    "content/posts/Sand Turner.md",
-    "posts.md",
     "docs/lib/media/favicon.png",
     "docs/lib/media/6155340132a851f6089e.svg",
-    "docs/lib/media/pasted-image-20250210213256.png",
     "content/about/about.md",
     "file.link.md",
     "Open Notebook 1st post.md",
