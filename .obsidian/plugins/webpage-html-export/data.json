@@ -48,6 +48,7 @@
     [
       "attachments",
       "content",
+      "posts.md",
       "index.md"
     ]
   ]

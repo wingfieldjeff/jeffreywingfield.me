@@ -25,18 +25,13 @@
             "id": "1c14e38ecab188f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Open Notebook 1st post.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Open Notebook 1st post"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/How to disable vibrate on block break in Minecraft for Android on handhelds (Ambernic, Retroid, etc).md",
+                "file": "content/posts/Open Notebook 1st post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for How to disable vibrate on block break in Minecraft for Android on handhelds (Ambernic, Retroid, etc)"
+              "title": "Backlinks for Open Notebook 1st post"
             }
           },
           {
@@ -165,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,15 +178,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "7e5d9f7322b099d8",
+        "id": "50d97a4efb374030",
         "type": "window",
         "children": [
           {
-            "id": "5e6892cf6855d200",
+            "id": "bc63b55a82e35a3b",
             "type": "tabs",
             "children": [
               {
-                "id": "013d6e901e348c54",
+                "id": "4798adae8014fdd8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -218,14 +212,19 @@
       }
     ]
   },
-  "active": "013d6e901e348c54",
+  "active": "4798adae8014fdd8",
   "lastOpenFiles": [
-    "content/cv/cv.md",
+    "index.md",
+    "content/about/about.md",
+    "posts.md",
     "content/posts/Open Notebook 1st post.md",
+    "docs/lib/media/pasted-image-20250210191809.png",
+    "docs/attachments/pasted-image-20250210191809.png",
+    "docs/attachments",
+    "content/cv/cv.md",
     "attachments/Pasted image 20250210191809.png",
     "attachments",
     "images",
-    "index.md",
     "file.link.md",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
@@ -234,10 +233,8 @@
     "docs/lib/styles/main-styles.css",
     "docs/lib/styles/obsidian.css",
     "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles",
     "docs/lib/media/6155340132a851f6089e.svg",
     "docs/lib/media/favicon.png",
-    "content/about/about.md",
     "Open Notebook 1st post.md",
     "themes/poison/static/katex/README.md",
     "themes/poison/static/icons/copy_success.svg",
@@ -248,9 +245,7 @@
     "themes/poison/README.md",
     "themes/poison/LICENSE.md",
     "resources/_gen/images/Jeff .png",
-    "public/lib/icofont/fonts/icofont.svg",
     "public/lib/katex/README.md",
-    "public/essays/add-picture-in-post/TEIDE.JPG",
     "public/katex/README.md",
     "archetypes/default.md",
     "content/posts/How to disable vibrate on block break in Minecraft for Android on handhelds (Ambernic, Retroid, etc).md",

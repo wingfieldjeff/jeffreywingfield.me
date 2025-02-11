@@ -3,7 +3,7 @@ title: Welcome
 ---
 Hello! My name is Jeff Wingfield and I am an IT Engineer, developer, and security professional living in Tampa, FL.
 
-This site is for my personal blog, cv, and portfolio.
+This site is for my personal [blog](posts.md), [[cv]], and portfolio.
 
 | Socials                                                              |
 | -------------------------------------------------------------------- |
