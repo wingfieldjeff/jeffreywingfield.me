@@ -178,15 +178,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "ddc731e34a3af82f",
+        "id": "b324fc54c1e1070e",
         "type": "window",
         "children": [
           {
-            "id": "398aac61cea0f698",
+            "id": "e0d6efea11967e7b",
             "type": "tabs",
             "children": [
               {
-                "id": "d15de0ec2eaa5c97",
+                "id": "0da19652cc774dcf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -212,12 +212,12 @@
       }
     ]
   },
-  "active": "d15de0ec2eaa5c97",
+  "active": "0da19652cc774dcf",
   "lastOpenFiles": [
     "posts.md",
     "index.md",
-    "docs/posts.html",
     "content/posts/Open Notebook 1st post.md",
+    "docs/posts.html",
     "content/about/about.md",
     "docs/lib/media/pasted-image-20250210191809.png",
     "docs/attachments/pasted-image-20250210191809.png",
