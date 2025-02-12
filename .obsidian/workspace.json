@@ -11,12 +11,14 @@
             "id": "faec3331b6b3efd8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "attachments/JeffGFav.png"
+                "file": "content/cv/cv.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "JeffGFav"
+              "icon": "lucide-file",
+              "title": "cv"
             }
           }
         ]
@@ -138,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "attachments/JeffGFav.png",
+                "file": "content/cv/cv.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JeffGFav"
+              "title": "Outline of cv"
             }
           },
           {
@@ -190,12 +192,12 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
+    "content/cv/cv.md",
+    "attachments/JeffGFav.png",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
-    "attachments/JeffGFav.png",
     "posts.md",
     "content/posts/Canvas Test.canvas",
-    "content/cv/cv.md",
     "content/posts/Sand Turner.md",
     "content/posts/Open Notebook 1st post.md",
     "index.md",

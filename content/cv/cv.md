@@ -13,12 +13,12 @@ draft: false
 IT Engineer with 8 years experience in IT and over 4 years experience working for law firms. I am excited to talk about anything HomeLab, Linux, Automation, Machine Learning, or 3D printing. I am a volunteer robotics coach and avid maker. I thrive on variety and problem solving.
 # Education
 Saint Leo University
-Bachelor of Science - BS, Cybersecurity  · (2018)
+Bachelor of Science - BS, Computer Science · (2018)
 # Experience
 
 ## Holland & Knight LLP
 ### ServiceNow Developer
-*May 2024 - Present
+*May 2024 - Present*
 
 - Designed and developed advanced ServiceNow applications using JavaScript.
 - Automated CI/CD workflows for ServiceNow applications leveraging Python, Azure Pipelines, and GitHub Actions, reducing deployment times and ensuring reliability.
