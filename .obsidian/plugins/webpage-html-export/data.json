@@ -75,7 +75,7 @@
         "selector": "#left-sidebar-content",
         "type": "end"
       },
-      "showCustomIcons": false,
+      "showCustomIcons": true,
       "showDefaultFolderIcons": false,
       "showDefaultFileIcons": false,
       "defaultFolderIcon": "lucide//folder",
@@ -126,8 +126,8 @@
       "alwaysEnabled": false,
       "displayTitle": "Graph View",
       "featurePlacement": {
-        "selector": "#right-sidebar-content",
-        "type": "start"
+        "selector": "#left-sidebar-content",
+        "type": "end"
       },
       "showOrphanNodes": true,
       "showAttachments": false,

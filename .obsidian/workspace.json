@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/3D file explorer test.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "3D file explorer test"
+              "title": "index"
+            }
+          },
+          {
+            "id": "b0d63e041251d69d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "posts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +206,15 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "faec3331b6b3efd8",
+  "active": "b0d63e041251d69d",
   "lastOpenFiles": [
-    "docs/site-lib/styles/snippets.css",
+    "content/posts/Canvas Test.canvas",
+    "content/posts/Sand Turner.md",
+    "content/posts/Open Notebook 1st post.md",
+    "index.md",
+    "content/cv/cv.md",
     "content/posts/3D file explorer test.md",
+    "docs/site-lib/styles/snippets.css",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
     "posts.md",
@@ -211,13 +231,7 @@
     "docs/attachments/pasted-image-20250210191809.png",
     "docs/attachments/jeffg.png",
     "docs/site-lib/styles/main-styles.css",
-    "docs/site-lib/styles/theme.css",
     "docs/site-lib/media/favicon.png",
-    "content/posts/Canvas Test.canvas",
-    "content/posts/Sand Turner.md",
-    "content/posts/Open Notebook 1st post.md",
-    "index.md",
-    "content/cv/cv.md",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "Clippings/Star Wars Battlefront Zoom Loader.md",
