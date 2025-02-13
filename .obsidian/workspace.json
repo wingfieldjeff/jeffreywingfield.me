@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/cv/cv.md",
+                "file": "content/posts/3D file explorer test.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "3D file explorer test"
             }
           }
         ]
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 535.5
+    "width": 535.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +193,18 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
+    "docs/content/posts/3d-file-explorer-test.html",
+    "content/posts/3D file explorer test.md",
+    "content/posts/Open Notebook 1st post.md",
     "content/cv/cv.md",
+    "Clippings/Star Wars Battlefront Zoom Loader.md",
+    "Clippings",
     "attachments/JeffGFav.png",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
     "posts.md",
     "content/posts/Canvas Test.canvas",
     "content/posts/Sand Turner.md",
-    "content/posts/Open Notebook 1st post.md",
     "index.md",
     "docs/attachments/jeffgfav.png",
     "docs/attachments/jeffgfav.html",
@@ -208,7 +213,6 @@
     "docs/attachments/pasted-image-20250211140130.png",
     "attachments/Pasted image 20250211140130.png",
     "Clippings/pixel-canvas Web Component.md",
-    "Clippings",
     "attachments/Pasted image 20250210230100.png",
     "docs/content/posts/canvas-test.html",
     "docs/site-lib/styles/theme.css",
