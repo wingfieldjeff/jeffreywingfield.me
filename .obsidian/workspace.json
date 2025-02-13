@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/3D file explorer test.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3D file explorer test"
+              "title": "index"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "faec3331b6b3efd8",
   "lastOpenFiles": [
-    "docs/content/posts/3d-file-explorer-test.html",
+    "index.md",
     "content/posts/3D file explorer test.md",
+    "docs/content/posts/3d-file-explorer-test.html",
     "content/posts/Open Notebook 1st post.md",
     "content/cv/cv.md",
     "Clippings/Star Wars Battlefront Zoom Loader.md",
@@ -205,7 +206,6 @@
     "posts.md",
     "content/posts/Canvas Test.canvas",
     "content/posts/Sand Turner.md",
-    "index.md",
     "docs/attachments/jeffgfav.png",
     "docs/attachments/jeffgfav.html",
     "docs/attachments/jeffg.png",
@@ -219,7 +219,6 @@
     "docs/site-lib/styles/supported-plugins.css",
     "docs/site-lib/styles/snippets.css",
     "docs/site-lib/styles/other-plugins.css",
-    "docs/site-lib/styles/obsidian.css",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
