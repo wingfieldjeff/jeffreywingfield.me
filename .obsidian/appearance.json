@@ -1,7 +1,5 @@
 {
   "cssTheme": "WY Console",
-  "enabledCssSnippets": [
-    "icon"
-  ],
+  "enabledCssSnippets": [],
   "accentColor": "#00a814"
 }
