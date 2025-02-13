@@ -11,31 +11,28 @@
             "id": "faec3331b6b3efd8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "content/posts/Canvas Test.canvas",
-                "viewState": {
-                  "x": 25,
-                  "y": -146.50943396226415,
-                  "zoom": -0.05343925896146061
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas Test"
-            }
-          },
-          {
-            "id": "6fd3284de2a463a6",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/3D file explorer experiment.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3D file explorer experiment"
+              "title": "index"
+            }
+          },
+          {
+            "id": "e6e48b8cfff8f4b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "posts"
             }
           }
         ],
@@ -209,35 +206,35 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6fd3284de2a463a6",
+  "active": "e6e48b8cfff8f4b5",
   "lastOpenFiles": [
-    "docs/content/posts/3d-file-explorer-experiment.html",
+    "docs/content/posts/canvas-test.html",
     "content/posts/Canvas Test.canvas",
-    "content/posts/3D file explorer experiment.md",
-    "index.md",
-    "docs/site-lib/search-index.json",
-    "docs/site-lib/metadata.json",
-    "posts.md",
+    "docs/content/posts/sand-turner.html",
     "content/posts/Sand Turner.md",
     "content/posts/Open Notebook 1st post.md",
+    "docs/content/posts/open-notebook-1st-post.html",
+    "index.md",
+    "docs/index.html",
     "content/cv/cv.md",
+    "docs/content/cv/cv.html",
+    "docs/content/cv",
+    "content/posts/3D file explorer experiment.md",
+    "docs/site-lib/styles/supported-plugins.css",
     "docs/site-lib/styles/snippets.css",
-    "docs/site-lib/scripts/webpage.js",
-    "docs/site-lib/scripts/graph-wasm.wasm",
-    "docs/site-lib/scripts/graph-wasm.js",
-    "docs/site-lib/scripts/graph-render-worker.js",
-    "docs/site-lib/scripts",
+    "docs/site-lib/styles/global-variable-styles.css",
+    "docs/site-lib/styles/obsidian.css",
+    "docs/site-lib/styles",
+    "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "docs/site-lib/media/6155340132a851f6089e.svg",
+    "posts.md",
     "docs/attachments/pasted-image-20250211140130.png",
     "docs/attachments/pasted-image-20250210213256.png",
     "docs/attachments/pasted-image-20250210212632.png",
-    "docs/attachments/20250117_172519_1.mp4",
     "docs/attachments/pasted-image-20250210210547.png",
     "docs/attachments/pasted-image-20250210191809.png",
     "docs/attachments/jeffg.png",
-    "docs/site-lib/styles/main-styles.css",
     "docs/site-lib/media/favicon.png",
-    "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "docs/site-lib/media/6155340132a851f6089e.svg",
     "Clippings/Star Wars Battlefront Zoom Loader.md",
     "attachments/JeffGFav.png",
     "Clippings/pixel-canvas Web Component.md",
