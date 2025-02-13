@@ -171,7 +171,7 @@
       "alwaysEnabled": true,
       "allowFoldingLists": true,
       "allowFoldingHeadings": true,
-      "documentWidth": "40em"
+      "documentWidth": "60em"
     },
     "rssOptions": {
       "featureId": "obsidian-document",
