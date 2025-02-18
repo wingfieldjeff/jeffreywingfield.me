@@ -120,37 +120,43 @@ On my next go, I caved to common sense. 4 bearings, with one on each side of eac
 
 <html><div id="stl-viewer" style="width:800px; height:600px;"></div>
 
-<!-- Three.js library -->
-<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
-<!-- STL Loader -->
-<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/STLLoader.js"></script>
-<!-- OrbitControls for interactive rotation -->
-<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js"></script>
+<!-- Define the import map -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.162.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/"
+  }
+}
+</script>
 
-<script>
-  // Set dimensions
+<!-- Use ES modules to import and run the code -->
+<script type="module">
+  import * as THREE from 'three';
+  import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+  import { STLLoader } from 'three/addons/loaders/STLLoader.js';
+
   const width = 800, height = 600;
 
-  // Create the scene, camera, and renderer
+  // Create scene, camera, and renderer
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
   const renderer = new THREE.WebGLRenderer({ antialias: true });
   renderer.setSize(width, height);
   document.getElementById('stl-viewer').appendChild(renderer.domElement);
 
-  // Add OrbitControls for interactive model rotation
-  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  // Set up OrbitControls for interactivity
+  const controls = new OrbitControls(camera, renderer.domElement);
 
-  // Basic lighting
+  // Add basic lighting
   scene.add(new THREE.AmbientLight(0x404040));
   const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
   directionalLight.position.set(0, 0, 1).normalize();
   scene.add(directionalLight);
 
-  // Load the STL file
-  const loader = new THREE.STLLoader();
+  // Load the STL file (ensure "shell.stl" is in the same directory)
+  const loader = new STLLoader();
   loader.load('shell.stl', function (geometry) {
-    // Create a mesh with a Phong material
     const material = new THREE.MeshPhongMaterial({ color: 0xB0C4DE });
     const mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
@@ -161,7 +167,7 @@ On my next go, I caved to common sense. 4 bearings, with one on each side of eac
     geometry.boundingBox.getCenter(center);
     mesh.geometry.translate(-center.x, -center.y, -center.z);
 
-    // Adjust the camera based on model size
+    // Adjust the camera based on the model size
     const maxDim = Math.max(
       geometry.boundingBox.max.x - geometry.boundingBox.min.x,
       geometry.boundingBox.max.y - geometry.boundingBox.min.y,
@@ -171,7 +177,7 @@ On my next go, I caved to common sense. 4 bearings, with one on each side of eac
     controls.update();
   });
 
-  // Render loop
+  // Animation loop to render the scene
   function animate() {
     requestAnimationFrame(animate);
     controls.update();
@@ -179,6 +185,7 @@ On my next go, I caved to common sense. 4 bearings, with one on each side of eac
   }
   animate();
 </script>
+
 
 </html>
 
