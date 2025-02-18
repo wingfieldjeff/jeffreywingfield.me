@@ -193,6 +193,7 @@
   },
   "active": "577e97be886243e6",
   "lastOpenFiles": [
+    "index.md",
     "docs/site-lib/search-index.json",
     "docs/site-lib/metadata.json",
     "posts.md",
@@ -204,7 +205,6 @@
     "docs/site-lib/styles/main-styles.css",
     "docs/site-lib/styles/global-variable-styles.css",
     "docs/site-lib/styles",
-    "docs/site-lib/html/file-tree-content.html",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
@@ -216,7 +216,6 @@
     "docs/attachments/jeffg.png",
     "content/posts/Sand Turner.md",
     "content/posts/Open Notebook 1st post.md",
-    "index.md",
     "content/cv/cv.md",
     "content/posts/3D file explorer experiment.md",
     "content/posts/ThreeJs Shape Generator Experiment.md",
