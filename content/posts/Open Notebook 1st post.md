@@ -30,3 +30,5 @@ Modular, refillable, 3d printed notebook design
 
 ## Customization 
 I have provided base templates for the panels and the hinge/spine in both .stl and .step formats. I have also shared a few other panels that add features like a pencil holder, gridfinity, etc.
+
+<iframe width="639" height="480" title="Open Notebook" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="clipboard-write; autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://thangs.com/model/1266295/embed?utm_source=embed"></iframe>

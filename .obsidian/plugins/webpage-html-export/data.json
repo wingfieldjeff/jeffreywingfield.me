@@ -12,7 +12,12 @@
     "inlineHTML": false,
     "exportPath": "C:\\Users\\wingf\\Documents\\GitHub\\jeffreywingfield.me\\docs",
     "filesToExport": [
-      "content",
+      "content/cv",
+      "content/posts/3D file explorer experiment.md",
+      "content/posts/Canvas Test.canvas",
+      "content/posts/Open Notebook 1st post.md",
+      "content/posts/Sand Turner.md",
+      "content/posts/ThreeJs Shape Generator Experiment.md",
       "posts.md",
       "index.md"
     ],
