@@ -126,7 +126,7 @@
       "alwaysEnabled": false,
       "displayTitle": "Graph View",
       "featurePlacement": {
-        "selector": "#left-sidebar-content",
+        "selector": "#right-sidebar-content",
         "type": "end"
       },
       "showOrphanNodes": true,
