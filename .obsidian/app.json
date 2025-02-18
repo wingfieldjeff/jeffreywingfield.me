@@ -8,5 +8,5 @@
     "margin": "0",
     "downscalePercent": 57
   },
-  "readableLineLength": false
+  "readableLineLength": true
 }
