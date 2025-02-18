@@ -136,18 +136,19 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* ======================================================================
-   Full-Screen CRT Effect: Screen-Door, Flicker, and Convex Distortion
+   Full-Screen CRT Effect (Reading View Only):
+   Screen-Door, Flicker, and Convex Distortion
    ====================================================================== */
 
-/* Ensure the html element is positioned relatively so that pseudo-elements cover the viewport */
-html {
+/* Apply CRT effect only in reading view */
+.markdown-preview-view {
   position: relative;
-  /* Apply the text shadow animation for subtle color separation on all text */
   animation: textShadow 1.6s infinite;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='crt-convex'><feImage result='gradient' xlink:href='data:image/svg+xml;utf8,<svg xmlns=&apos;http://www.w3.org/2000/svg&apos;><defs><radialGradient id=&apos;grad&apos; cx=&apos;50%&apos; cy=&apos;50%&apos; r=&apos;70%&apos; fx=&apos;50%&apos; fy=&apos;50%&apos;><stop offset=&apos;0%&apos; stop-color=&apos;white&apos;/><stop offset=&apos;100%&apos; stop-color=&apos;black&apos;/></radialGradient></defs><rect width=&apos;100%&apos; height=&apos;100%&apos; fill=&apos;url(%23grad)&apos;/></svg>'/><feDisplacementMap in='SourceGraphic' in2='gradient' scale='40' xChannelSelector='R' yChannelSelector='G'/></filter></svg>#crt-convex");
 }
 
-/* Screen-door effect overlay covering the entire viewport */
-html::before {
+/* Screen-door overlay covering the entire reading view */
+.markdown-preview-view::before {
   content: "";
   display: block;
   position: fixed; /* Fixed so that it covers the viewport during scrolling */
@@ -163,8 +164,8 @@ html::before {
   z-index: 9999;
 }
 
-/* Flicker overlay covering the entire viewport */
-html::after {
+/* Flicker overlay covering the entire reading view */
+.markdown-preview-view::after {
   content: "";
   display: block;
   position: fixed; /* Fixed overlay */
@@ -177,11 +178,6 @@ html::after {
   pointer-events: none;
   animation: flicker 0.15s infinite;
   z-index: 10000;
-}
-
-/* Apply a convex distortion filter (CRT convex effect) using an embedded SVG filter */
-html {
-  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='crt-convex'><feImage result='gradient' xlink:href='data:image/svg+xml;utf8,<svg xmlns=&apos;http://www.w3.org/2000/svg&apos;><defs><radialGradient id=&apos;grad&apos; cx=&apos;50%&apos; cy=&apos;50%&apos; r=&apos;70%&apos; fx=&apos;50%&apos; fy=&apos;50%&apos;><stop offset=&apos;0%&apos; stop-color=&apos;white&apos;/><stop offset=&apos;100%&apos; stop-color=&apos;black&apos;/></radialGradient></defs><rect width=&apos;100%&apos; height=&apos;100%&apos; fill=&apos;url(%23grad)&apos;/></svg>'/><feDisplacementMap in='SourceGraphic' in2='gradient' scale='40' xChannelSelector='R' yChannelSelector='G'/></filter></svg>#crt-convex");
 }
 
 /* Center tables on the page */

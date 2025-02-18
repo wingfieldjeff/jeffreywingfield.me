@@ -1,5 +1,4 @@
 ---
-title: 3D file explorer experiment
 date: 2025-02-12T20:48:13-08:00
 ---
 
