@@ -193,3 +193,7 @@ html {
 .markdown-preview-viewheadshot {
   width: 20%;
 }
+.markdown-preview-view h1, h2, h3, th{
+  animation: textShadow 1.6s infinite;
+}
+
