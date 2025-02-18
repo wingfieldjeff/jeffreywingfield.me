@@ -117,3 +117,69 @@ void loop() {
 # Second attempt
 ![[Pasted image 20250211140130.png]]
 On my next go, I caved to common sense. 4 bearings, with one on each side of each axel. This means there are not plastic on plastic wear surfaces and the weight of the disk is not transferred into the motor.
+
+<html><div id="stl-viewer" style="width:800px; height:600px;"></div>
+
+<!-- Three.js library -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
+<!-- STL Loader -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/loaders/STLLoader.js"></script>
+<!-- OrbitControls for interactive rotation -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/examples/js/controls/OrbitControls.js"></script>
+
+<script>
+  // Set dimensions
+  const width = 800, height = 600;
+
+  // Create the scene, camera, and renderer
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setSize(width, height);
+  document.getElementById('stl-viewer').appendChild(renderer.domElement);
+
+  // Add OrbitControls for interactive model rotation
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+  // Basic lighting
+  scene.add(new THREE.AmbientLight(0x404040));
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+  directionalLight.position.set(0, 0, 1).normalize();
+  scene.add(directionalLight);
+
+  // Load the STL file
+  const loader = new THREE.STLLoader();
+  loader.load('shell.stl', function (geometry) {
+    // Create a mesh with a Phong material
+    const material = new THREE.MeshPhongMaterial({ color: 0xB0C4DE });
+    const mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
+
+    // Center the model
+    geometry.computeBoundingBox();
+    const center = new THREE.Vector3();
+    geometry.boundingBox.getCenter(center);
+    mesh.geometry.translate(-center.x, -center.y, -center.z);
+
+    // Adjust the camera based on model size
+    const maxDim = Math.max(
+      geometry.boundingBox.max.x - geometry.boundingBox.min.x,
+      geometry.boundingBox.max.y - geometry.boundingBox.min.y,
+      geometry.boundingBox.max.z - geometry.boundingBox.min.z
+    );
+    camera.position.set(0, 0, maxDim * 2);
+    controls.update();
+  });
+
+  // Render loop
+  function animate() {
+    requestAnimationFrame(animate);
+    controls.update();
+    renderer.render(scene, camera);
+  }
+  animate();
+</script>
+
+</html>
+
+
