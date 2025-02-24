@@ -1,7 +1,7 @@
 # The Idea
 I have this desk toy.
 
-![[Pasted image 20250210210547.png]]Sand flows between bubbles, making patterns. When the sand runs out, you flip it over and the process repeats. This takes between 1 and 5 minutes. The problem, at least for me, is that it is fascinating for about a day before the friction of flipping over is just enough to leave it on a shelf and forget about it.
+![[pasted-image-20250210210547.png]]Sand flows between bubbles, making patterns. When the sand runs out, you flip it over and the process repeats. This takes between 1 and 5 minutes. The problem, at least for me, is that it is fascinating for about a day before the friction of flipping over is just enough to leave it on a shelf and forget about it.
 
 Wouldn't it be cool if it flipped itself? What if it was more kinetic sculpture and less toy. It could be mounted on a wall, run all the time, and be different every time you look at it. 
 
