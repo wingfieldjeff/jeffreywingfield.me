@@ -40,3 +40,5 @@ limit 10
 - Theme based on [WYConsole](https://github.com/Satchelmouth/Obsidian-Theme-WYConsole) by [Satchelmouth](https://github.com/Satchelmouth) 
 - CTR effect based on [Using CSS to create a CRT](https://aleclownes.com/2017/02/01/crt-display.html) by [ Alec Lownes](https://aleclownes.com/)
 
+
+

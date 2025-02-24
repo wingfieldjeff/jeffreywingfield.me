@@ -86,7 +86,7 @@
       "defaultFolderIcon": "lucide//folder",
       "defaultFileIcon": "lucide//file",
       "defaultMediaIcon": "lucide//file-image",
-      "exposeStartingPath": true,
+      "exposeStartingPath": false,
       "includePath": "site-lib/html/file-tree.html"
     },
     "searchOptions": {
