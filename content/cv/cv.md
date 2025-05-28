@@ -28,7 +28,7 @@ Bachelor of Science - BS, Computer Science · (2018)
 - Initiated and led the migration of on-premises ServiceNow MID servers to containerized environments in AWS using Docker, streamlining infrastructure management.
 - Developed RPA testing frameworks to ensure robust quality assurance for ServiceNow applications.
  
-Skills: ServiceNow· Python · AWS · GitHub · Powershell  · JavaScript · Azure Devops · Llama3 · Copilot*
+Skills: ServiceNow Development· Python · AWS · GitHub · Powershell  · JavaScript · Azure Devops · Llama3 · Copilot*
 
 ---
 ## Bonterra
@@ -53,7 +53,7 @@ Skills: ServiceNow· Python · AWS · GitHub · Powershell  · JavaScript · Az
 - Led initiatives to research, configure, and deploy cutting-edge security solutions to fortify the firm's cyber defenses and protect sensitive information.
 - Collaborated with the team to develop incident response workflows and playbooks using ServiceNow SIR, ensuring rapid and effective response to security incidents in alignment with CISA guidelines and other legal requirements and industry standards.
 
-**Skills:**  DLP · Vulnerability Assessment · Cyber-security · Incident Response · Proofpoint · Carbon Black · ServiceNow · Microsoft Defender for Endpoint · Microsoft Power Automate · Powershell
+**Skills:**  DLP · Vulnerability Assessment · Cyber-security · Incident Response · Proofpoint · Carbon Black · ServiceNow Automation · Microsoft Defender for Endpoint · Microsoft Power Automate · Powershell
 ### IT Security Specialist
 *January 2020 - February 2021 (1 year 2 months)*
 
@@ -69,7 +69,7 @@ Skills: ServiceNow· Python · AWS · GitHub · Powershell  · JavaScript · Az
 - Developed PowerShell scripts to automate recurring tasks, increasing efficiency and reducing manual workload.
 - Dedicate one day per week to provide supplemental support to the IT Security department, contributing to ongoing projects and special initiatives.
 - 
-**Skills:** Citrix Workspace · Citrix Products · Powershell · Remote Desktop · Desktop Virtualization · Virtualization · Incident Response · Microsoft Office · Active Directory · System Center Configuration Manager (SCCM)
+**Skills:** ServiceNow Automation · Citrix Workspace · Citrix Products · Powershell · Remote Desktop · Desktop Virtualization · Virtualization · Incident Response · Microsoft Office · Active Directory · System Center Configuration Manager (SCCM)
 
 ### IT Support Specialist
 *August 2018 - July 2019 (1 year)*
@@ -79,7 +79,7 @@ Skills: ServiceNow· Python · AWS · GitHub · Powershell  · JavaScript · Az
 - Offered daily assistance and troubleshooting for Microsoft Office, Citrix remote desktop solutions, and the iManage DMS across both Windows and MacOS platforms, ensuring optimal performance and user experience.
 - Enrolled and provided support for mobile devices through IBM MaaS360, maintaining security and compliance standards for mobile device management.
 
-**Skills:** Citrix Workspace · Citrix Products · Powershell · Remote Desktop · Desktop Virtualization · Virtualization · Incident Response · Microsoft Office · Active Directory · System Center Configuration Manager (SCCM) 
+**Skills:** ServiceNow Automation · Citrix Workspace · Citrix Products · Powershell · Remote Desktop · Desktop Virtualization · Virtualization · Incident Response · Microsoft Office · Active Directory · System Center Configuration Manager (SCCM) 
 
 ---
 ## Trial Consulting Services
